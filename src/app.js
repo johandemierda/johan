@@ -39,5 +39,5 @@ if (process.argv[2] == "--devmode") {
 }
 
 server.on("listening", () => {
-  console.log(`Listening on port http://localhost:${port}`);
+  console.log(`Listening on port http://johhan.fun:${port}`);
 });
