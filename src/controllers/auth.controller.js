@@ -17,7 +17,7 @@ class AuthController {
     this.checkAccessToken(null, null, null);
     setInterval(() => {
       this.checkAccessToken(null, null, null);
-    }, 30 * 60 * 100);
+    }, 30 * 60 * 1000);
   }
 
   checkAccessToken(req, res, next) {
